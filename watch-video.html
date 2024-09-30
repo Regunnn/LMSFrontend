@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>watch</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+      <a href="home.html" class="logo">LMS</a>
+
+      <form action="search.html" method="post" class="search-form">
+         <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+      <div class="profile">
+         <img src="photos/User.jpeg" class="image" alt="">
+         <h3 class="name">Student</h3>
+         <p class="role">IoT</p>
+         <a href="profile.html" class="btn">View Profile</a>
+         <div class="flex-btn">
+            <a href="login.html" class="option-btn">Login</a>
+            <a href="register.html" class="option-btn">Sign Up</a>
+         </div>
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="photos/User.jpeg" class="image" alt="">
+      <h3 class="name">Student</h3>
+      <p class="role">IoT</p>
+      <a href="profile.html" class="btn">View Profile</a>
+   </div>
+
+   <nav class="navbar">
+      <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+      <a href="about.html"><i class="fas fa-question"></i><span>About</span></a>
+      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
+      <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Faculty</span></a>
+      <a href="contact.html"><i class="fas fa-headset"></i><span>Contact Us</span></a>
+   </nav>
+
+</div>
+
+<section class="watch-video">
+
+   <div class="video-container">
+      <div class="video">
+         <video src="images/vid-1.mp4" controls poster="images/post-1-1.png" id="video"></video>
+      </div>
+      <h3 class="title">Computer Networks</h3>
+      <div class="info">
+         <p class="date"><i class="fas fa-calendar"></i><span>Semester 4</span></p>
+         <p class="date"><i class="fas fa-heart"></i><span>15 Topics</span></p>
+      </div>
+      <div class="tutor">
+         <img src="photos/Vidhusha.jpeg" alt="">
+         <div>
+            <h3>Dr.S.Vidhusha</h3>
+            <span>PhD</span>
+         </div>
+      </div>
+      <form action="" method="post" class="flex">
+         <a href="playlist.html" class="inline-btn">View Topics</a>
+         <button><i class="far fa-heart"></i><span>Done</span></button>
+      </form>
+      <p class="description">
+         Introduction to Computer Networks by Dr.S.Vidhusha, trains students to connect Local Area Networks (LAN), Wide Area Networks (WAN) and Wireless versions of both types.
+      </p>
+   </div>
+
+</section>
+
+<section class="comments">
+
+   <h1 class="heading">0 Comments</h1>
+
+   <form action="" class="add-comment">
+      <h3>Add Comment</h3>
+      <textarea name="comment_box" placeholder="enter your comment" required maxlength="1000" cols="30" rows="10"></textarea>
+      <input type="submit" value="add comment" class="inline-btn" name="add_comment">
+   </form>
+
+   <h1 class="heading">User Comments</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <div class="user">
+            <img src="photos/User.jpeg" alt="">
+            <div>
+               <h3>Student</h3>
+               <span>Iot</span>
+            </div>
+         </div>
+         <div class="comment-box">this is a comment from student 1</div>
+         <form action="" class="flex-btn">
+            <input type="submit" value="edit comment" name="edit_comment" class="inline-option-btn">
+            <input type="submit" value="delete comment" name="delete_comment" class="inline-delete-btn">
+         </form>
+      </div>
+
+      <div class="box">
+         <div class="user">
+            <img src="photos/User.jpeg" alt="">
+            <div>
+               <h3>Student 2</h3>
+               <span>IoT</span>
+            </div>
+         </div>
+         <div class="comment-box">awesome tutorial!
+            keep going!</div>
+      </div>
+
+      <div class="box">
+         <div class="user">
+            <img src="photos/User.jpeg" alt="">
+            <div>
+               <h3>Student 3</h3>
+               <span>IoT</span>
+            </div>
+         </div>
+         <div class="comment-box">amazing way of teaching!
+            thank you so much!
+         </div>
+      </div>
+
+      <div class="box">
+         <div class="user">
+            <img src="photos/User.jpeg" alt="">
+            <div>
+               <h3>Student 5</h3>
+               <span>IoT</span>
+            </div>
+         </div>
+         <div class="comment-box">loved it, thanks for the tutorial!</div>
+      </div>
+
+      <div class="box">
+         <div class="user">
+            <img src="photos/User.jpeg" alt="">
+            <div>
+               <h3>Student 22</h3>
+               <span>IoT</span>
+            </div>
+         </div>
+         <div class="comment-box">this is what I have been looking for! thank you so much!</div>
+      </div>
+
+      <div class="box">
+         <div class="user">
+            <img src="photos/User.jpeg" alt="">
+            <div>
+               <h3>Student 56</h3>
+               <span>IoT</span>
+            </div>
+         </div>
+         <div class="comment-box">thanks for the tutorial!
+
+            how to download source code file?
+         </div>
+      </div>
+
+   </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+
+   &copy; Get the mobile app <span> LMS</span> 
+
+</footer>
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+   
+</body>
+</html>
